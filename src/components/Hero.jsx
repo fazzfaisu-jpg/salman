@@ -109,7 +109,7 @@ const Hero = () => {
           <a href="#contact" className="px-8 py-3 bg-transparent text-white font-bold uppercase tracking-wider rounded border border-gray-600 hover:border-circuit-blue hover:text-circuit-blue transition-all">
             Initiate Contact
           </a>
-          <a href="/resume.pdf" download="Salmanul_Faris_Resume.pdf" className="px-8 py-3 bg-transparent text-neon-accent font-bold uppercase tracking-wider rounded border border-neon-accent hover:bg-neon-accent hover:text-black transition-all flex items-center justify-center gap-2 group">
+          <a href={`${import.meta.env.BASE_URL}resume.pdf`} download="Salmanul_Faris_Resume.pdf" className="px-8 py-3 bg-transparent text-neon-accent font-bold uppercase tracking-wider rounded border border-neon-accent hover:bg-neon-accent hover:text-black transition-all flex items-center justify-center gap-2 group">
             <span>Download Resume</span>
           </a>
         </motion.div>
