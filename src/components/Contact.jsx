@@ -28,6 +28,7 @@ const Contact = () => {
         },
         body: JSON.stringify({
           access_key: "b6dfaf41-f8d7-4946-bb16-7a55884d07aa",
+          to: "salmanulfaris3116@gmail.com",
           subject: `New Transmission from ${formState.name} - ${formState.type} Inquiry`,
           name: formState.name,
           email: formState.email,
@@ -227,7 +228,7 @@ const Contact = () => {
              </div>
              <div>
                 <h4 className="text-sm font-mono text-gray-400 mb-1">Direct Line</h4>
-                <a href="mailto:smachampulli@gmail.com" className="text-lg font-bold group-hover:text-circuit-blue transition-colors">smachampulli@gmail.com</a>
+                <a href="mailto:salmanulfaris3116@gmail.com" className="text-lg font-bold group-hover:text-circuit-blue transition-colors">salmanulfaris3116@gmail.com</a>
              </div>
           </div>
 
