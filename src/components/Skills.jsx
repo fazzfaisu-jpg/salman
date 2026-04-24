@@ -19,7 +19,7 @@ const Skills = () => {
     {
       id: 3,
       title: 'Hardware Diagnostics',
-      description: 'Deep-dive fault finding using schematics, multimeters, and oscilloscopes to isolate issues.',
+      description: 'Deep-dive fault finding using schematics,Board View & multimeters',
       icon: <Activity className="w-8 h-8 text-purple-400" />
     },
     {
